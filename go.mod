@@ -24,12 +24,12 @@ require (
 	k8s.io/apiextensions-apiserver v0.32.3
 	k8s.io/apimachinery v0.34.0
 	k8s.io/apiserver v0.34.0
-	k8s.io/cli-runtime v0.0.0
+	k8s.io/cli-runtime v0.34.0
 	k8s.io/client-go v0.34.0
 	k8s.io/klog/v2 v2.130.1
-	k8s.io/kubectl v0.0.0
-	k8s.io/kubernetes v0.0.0-00010101000000-000000000000
-	k8s.io/pod-security-admission v0.0.0
+	k8s.io/kubectl v0.34.0
+	k8s.io/kubernetes v1.34.1
+	k8s.io/pod-security-admission v0.34.0
 	sigs.k8s.io/cloud-provider-azure v1.34.1
 	sigs.k8s.io/gateway-api v1.3.0
 	sigs.k8s.io/yaml v1.6.0
