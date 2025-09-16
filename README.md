@@ -3,9 +3,11 @@
 This repository contains a Go library with utility functions for interacting with OpenShift and Kubernetes clusters. It provides a convenient client for managing cluster resources, with a particular focus on simplifying end-to-end (e2e) testing.
 
 ## Goal
-Avoid being able to directly pull an entire oversized origin along with the corresponding complex dependencies, as this can easily contaminating our project and cause conflicts with the new OpenShift/K8s version. And every time, GOSUMDB has to be turned off, which is not very user-friendly for CI/CD. The future might be even more troublesome. Therefore consider from origin/test/extended/util alone cut out to be a lightweight repo (such as the origin - util), multiple repo when using, go to get github.com/<your-org>/origin-util@v0.x. Version is controllable.
+Avoid being able to directly pull an entire oversized origin along with the corresponding complex dependencies, as this can easily contaminating our project and cause conflicts with the new OpenShift/K8s version. And every time, GOSUMDB has to be turned off, which is not very user-friendly for CI/CD. The future might be even more troublesome. Therefore consider from origin/test/extended/util alone cut out to be a lightweight repo (such as the origin - util), multiple repo when using, go to get github.com/wangke19/origin-util@v0.x. Version is controllable.
 
 ## Usage
+
+- Spin up a Openshift cluster, set KUBECONFIG environment variable。
 
 To use this library in your Go project, you can import it as follows:
 
