@@ -1,4 +1,4 @@
-module github.com/openshift/origin-util
+module github.com/wangke19/origin-util
 
 go 1.24.6
 
